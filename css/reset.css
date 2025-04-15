@@ -18,3 +18,18 @@ img{
 h1, h2, h3, h4, p{
     margin: 0;
 }
+
+  ol {
+    counter-reset: item 0;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ol li {
+    counter-increment: item;
+  }
+
+  ol li::before {
+    content: counter(item, decimal-leading-zero) ". ";
+    margin-right: 20px;
+  }
