@@ -646,3 +646,13 @@ border-radius: 50%;
 height: 24px;
 fill: #FFF;
 }
+
+.footer-copy{
+    color: #FFF;
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 40px;
+}
