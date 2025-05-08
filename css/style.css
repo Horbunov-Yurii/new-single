@@ -40,6 +40,7 @@ color: #FFF;
 font-size: 18px;
 font-weight: 600;
 line-height: normal;
+
 }
 
 /* =============================== */
@@ -155,6 +156,7 @@ position: absolute;
 bottom: 0;
 width: 100%;
 
+
 }
 
 /* ============================== */
@@ -180,6 +182,11 @@ margin-bottom: 60px;
 display: flex;
 align-items: center;
 gap: 30px;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 .bright-title::before{
 content: "";
@@ -205,6 +212,11 @@ line-height: normal;
 opacity: 0.7;
 width: 540px;
 margin-bottom: 60px;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 .bright-list{
@@ -231,6 +243,7 @@ display: flex;
 align-items: center;
 gap: 20px;
 width: 245px;
+
 }
 
 .bright-desk::before{
@@ -291,6 +304,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: normal;
 
+
 }
 
 .pop-text::after{
@@ -309,6 +323,7 @@ color: #7A66CC;
 font-size: 18px;
 font-weight: 700;
 line-height: normal;
+
 }
 
 .pop-img{
@@ -369,6 +384,11 @@ margin-bottom: 62px;
 display: flex;
 align-items: center;
 gap: 30px;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 .traks-title::before{
@@ -408,6 +428,11 @@ line-height: normal;
 font-size: 18px;
 font-weight: 400;
 line-height: normal;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 .truks-wrap{
@@ -420,6 +445,11 @@ line-height: normal;
 font-size: 24px;
 font-weight: 600;
 line-height: normal;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 .traks-items{
@@ -436,6 +466,11 @@ line-height: normal;
 display: flex;
 align-items: center;
 gap: 10px;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 .truks-icon{
@@ -497,6 +532,11 @@ position: absolute;
 top: 70%;
 left: 50%;
 transform: translate(-50%, -50%);
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
 
 /* ======================================= */
@@ -531,6 +571,7 @@ font-weight: 700;
 line-height: normal;
 opacity: 0.5;
 margin-bottom: 20px;
+
 }
 
 .tickets-text{
@@ -539,6 +580,7 @@ font-size: 18px;
 font-weight: 500;
 line-height: normal;
 margin-bottom: 30px;
+
 }
 
 .tickets-desk{
@@ -548,6 +590,7 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 opacity: 0.5;
+
 }
 
 .tickets-btn{
@@ -621,6 +664,7 @@ font-size: 18px;
 font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
+
 }
 
 .footer-link{
@@ -629,6 +673,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
+
 }
 
 .footer-items{
@@ -670,4 +715,9 @@ font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
 margin-top: 40px;
+ background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
 }
