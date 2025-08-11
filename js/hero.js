@@ -45,6 +45,8 @@ seekBar.addEventListener("input", () => {
 
 
 audio.addEventListener("ended", () => {
+   playPauseBtn.textContent = "▶️";
   titleEl.style.color = "#fff";
   textEl.style.color = "#fff";
+
 });
