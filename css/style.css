@@ -14,6 +14,7 @@ body{
     padding-top: 30px;
     position: absolute;
     width: 100%;
+    z-index: 1;
 }
 
 .header > .container{
@@ -49,6 +50,8 @@ line-height: normal;
     padding-top: 322px;
     padding-bottom: 292px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #1C1B21 92.19%), url(../images/hero.webp) lightgray 50% / cover no-repeat;
+    transform: scale(0);
+    transition: 1500ms;
 
 }
 
@@ -67,7 +70,8 @@ margin-bottom: 10px;
   background-size: cover;
   background-position: center;
   background-clip: text;
-  color: transparent;
+  /* color: transparent; */
+  color: #FFF;
 }
 
 .hero-text{
@@ -81,7 +85,8 @@ margin-bottom: 52px;
   background-size: cover;
   background-position: center;
   background-clip: text;
-  color: transparent;
+  /* color: transparent; */
+  color: #FFF;
 }
 
 /* ==============AUDIO======================= */
@@ -164,6 +169,8 @@ width: 100%;
 .bright{
     padding-top: 300px;
     padding-bottom: 153px;
+    transform: scale(0);
+    transition: 1500ms;
 }
 
 .bright > .container{
@@ -281,9 +288,10 @@ height: 400px;
 }
 
 /* =========================== */
-/* .pop{
-    position: relative;
-} */
+.pop{
+   transform: scale(0);
+    transition: 1500ms;
+}
 
 
 .pop > .container{
@@ -339,6 +347,8 @@ right: 80px;
 
 .traks{
     padding: 180px 0;
+    transform: scale(0);
+    transition: 1500ms;
 }
 
 .traks .container{
@@ -483,6 +493,8 @@ height: 20px;
 
 .vegas{
     padding-bottom: 180px;
+    transform: scale(0);
+    transition: 1500ms;
 }
 
 .vegas-list{
@@ -543,6 +555,8 @@ transform: translate(-50%, -50%);
 
 .tickets{
     padding-bottom: 180px;
+    transform: scale(0);
+    transition: 1500ms;
 }
 
 .tickets-list{
@@ -614,6 +628,8 @@ right: 0;
 .footer{
     padding-bottom: 40px;
     text-align: center;
+    transform: scale(0);
+    transition: 1500ms;
 }
 
 .footer .container{

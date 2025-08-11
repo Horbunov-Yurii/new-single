@@ -3,6 +3,8 @@ const playPauseBtn = document.getElementById("playPauseBtn");
 const seekBar = document.getElementById("seekBar");
 const currentTimeEl = document.getElementById("currentTime");
 const durationEl = document.getElementById("duration");
+const titleEl = document.querySelector(".hero-title");
+const textEl = document.querySelector(".hero-text");
 
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
@@ -14,9 +16,13 @@ playPauseBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
     playPauseBtn.textContent = "⏸️";
+    titleEl.style.color = "transparent";
+    textEl.style.color = "transparent";
   } else {
     audio.pause();
     playPauseBtn.textContent = "▶️";
+    titleEl.style.color = "#fff"
+    textEl.style.color = "#fff";
   }
 });
 
