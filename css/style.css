@@ -12,7 +12,8 @@ body{
 
 .header{
     padding-top: 30px;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -42,6 +43,10 @@ font-size: 18px;
 font-weight: 600;
 line-height: normal;
 
+}
+
+.active{
+    color: red;
 }
 
 /* =============================== */
