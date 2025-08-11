@@ -15,6 +15,8 @@ function formatTime(seconds) {
 playPauseBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
+    console.log(audio);
+    
     playPauseBtn.textContent = "⏸️";
     titleEl.style.color = "transparent";
     textEl.style.color = "transparent";
@@ -25,6 +27,8 @@ playPauseBtn.addEventListener("click", () => {
     textEl.style.color = "#fff";
   }
 });
+
+
 
 audio.addEventListener("loadedmetadata", () => {
   durationEl.textContent = formatTime(audio.duration);
@@ -37,4 +41,10 @@ audio.addEventListener("timeupdate", () => {
 
 seekBar.addEventListener("input", () => {
   audio.currentTime = (seekBar.value / 100) * audio.duration;
+});
+
+
+audio.addEventListener("ended", () => {
+  titleEl.style.color = "#fff";
+  textEl.style.color = "#fff";
 });
